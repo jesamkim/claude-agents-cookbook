@@ -20,3 +20,6 @@ Amazon SageMaker AI - JupyterLab 에서 테스트 되었습니다. (Region : us-
 - [Basic Workflows](basic_workflows.ipynb)
 - [Evaluator-Optimizer Workflow](evaluator_optimizer.ipynb)
 - [Orchestrator-Workers Workflow](orchestrator_workers.ipynb)
+
+---
+원본 Repo : https://github.com/anthropics/anthropic-cookbook/tree/main/patterns/agents
