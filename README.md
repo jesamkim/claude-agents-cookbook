@@ -1,7 +1,7 @@
 # 효과적인 에이전트 구축 가이드
 
 Erik Schluntz와 Barry Zhang의 [Building Effective Agents](https://anthropic.com/research/building-effective-agents) 연구의 참조 구현입니다.<br><br>
-또한 Anthropic Cookbook의 내용을 Amazon Bedrock 기반 코드로 수정하였습니다. (by Jesam Kim)<br>
+또한 Anthropic Cookbook의 내용을 Amazon Bedrock 기반 코드로 수정하였습니다.<br>
 Amazon SageMaker AI - JupyterLab 에서 테스트 되었습니다. (Region : us-west-2)
 
 이 저장소는 블로그에서 논의된 일반적인 에이전트 워크플로우의 최소 구현 예제를 포함하고 있습니다:
