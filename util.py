@@ -20,7 +20,8 @@ def llm_call(prompt: str, system_prompt: str = "") -> str:
         system_messages = [system_prompt] if system_prompt else []
         
         response = client.converse(
-            modelId='us.anthropic.claude-3-5-sonnet-20241022-v2:0',
+            #modelId='us.anthropic.claude-3-5-sonnet-20241022-v2:0',  # Claude 3.5 Sonnet v2 (Cross-inference)
+            modelId='anthropic.claude-3-sonnet-20240229-v1:0',        # Claude 3 Sonnet
             messages=messages,
             system=system_messages,
             inferenceConfig={
